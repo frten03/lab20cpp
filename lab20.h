@@ -207,4 +207,3 @@ void Unit::equip(Equipment *newEquip) {
 
     if (hp > hpmax) hp = hpmax;  
 }
-
