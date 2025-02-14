@@ -205,6 +205,6 @@ void Unit::equip(Equipment *newEquip) {
     atk += newStat[1];
     def += newStat[2];
 
-    if (hp > hpmax) hp = hpmax;  // ควบคุมไม่ให้ hp เกินค่าต่ำสุด
+    if (hp > hpmax) hp = hpmax;  
 }
 
